@@ -8,13 +8,13 @@ language: swift
 cache: 
 - cocoapods
 - xcpretty
-podfile: Example/Podfile
+podfile: Podfile
 rvm:
 - 2.4.3
 before_install:
 - gem install cocoapods # Since Travis is not always on latest version
 - gem install xcpretty
-- pod install --project-directory=Example
+- pod install
 
 script:
 - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace AVSQLDebugger.xcworkspace -scheme AVSQLDebugger-Example -sdk iphonesimulator13.0 ONLY_ACTIVE_ARCH=NO | xcpretty
