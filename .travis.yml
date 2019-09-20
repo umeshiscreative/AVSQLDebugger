@@ -14,9 +14,10 @@ rvm:
 before_install:
 - gem install cocoapods # Since Travis is not always on latest version
 - gem install xcpretty
-- pod install
+- pod install --project-directory=AVSQLDebugger
+
 
 script:
-- set -o pipefail && xcodebuild -project AVSQLDebugger.xcodeproj -scheme AVSQLDebugger -sdk iphonesimulator13.0 ONLY_ACTIVE_ARCH=NO | xcpretty
-- set -o pipefail && xcodebuild -project Example.xcodeproj -scheme Example -sdk iphonesimulator13.0 ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace AVSQLDebugger.xcworkspace -scheme Example -sdk iphonesimulator13.0 ONLY_ACTIVE_ARCH=NO | xcpretty
+#- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/UVCardView.xcworkspace Example -sdk iphonesimulator13.0 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
