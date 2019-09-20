@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+# AVSQLDebugger
 
-You can use the [editor on GitHub](https://github.com/umeshiscreative/AVSQLDebugger/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[![CI Status](https://img.shields.io/travis/umeshiscreative/AVSQLDebugger.svg?style=flat)](https://travis-ci.org/umeshiscreative/AVSQLDebugger)
+[![Version](https://img.shields.io/cocoapods/v/AVSQLDebugger.svg?style=flat)](https://cocoapods.org/pods/AVSQLDebugger)
+[![License](https://img.shields.io/cocoapods/l/AVSQLDebugger.svg?style=flat)](https://cocoapods.org/pods/AVSQLDebugger)
+[![Platform](https://img.shields.io/cocoapods/p/AVSQLDebugger.svg?style=flat)](https://cocoapods.org/pods/AVSQLDebugger)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Example
 
-### Markdown
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Requirements
 
-```markdown
-Syntax highlighted code block
+## Installation
 
-# Header 1
-## Header 2
-### Header 3
+AVSQLDebugger is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```ruby
+pod 'AVSQLDebugger', '~>1.0.2'
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Author
 
-### Jekyll Themes
+Umesh Verma, umeshiscreative@gmail.com
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/umeshiscreative/AVSQLDebugger/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## License
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+AVSQLDebugger is available under the MIT license. See the LICENSE file for more info.
