@@ -2,20 +2,26 @@
 //  AppDelegate.swift
 //  Example
 //
-//  Created by Philips on 20/09/19.
+//  Created by Umesh.
 //  Copyright © 2019 Umesh. All rights reserved.
 //
 
 import UIKit
 import CoreData
+import AVSQLDebugger
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, AVDebuggerProtocol {
 
-
-
+    class var shared: AppDelegate {
+        return UIApplication.shared.delegate as! AppDelegate
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        AVDebugger.sharedInstance.config(with: self, containerName: "Example",port: 8090)
+        
         return true
     }
 

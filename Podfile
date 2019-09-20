@@ -4,7 +4,7 @@ platform :ios, '10.0'
 
 workspace 'AVSQLDebugger'
 
-$podSource = {:path => '../'}
+$podSource = {:path => './'}
 
 target 'AVSQLDebugger' do
     project 'AVSQLDebugger/AVSQLDebugger.xcodeproj'
@@ -15,7 +15,7 @@ target 'Example' do
 
   project 'Example/Example.xcodeproj'
 
-  pod 'EasyDB', $podSource
+  pod 'AVSQLDebugger', $podSource
 
   target 'ExampleTests' do
     inherit! :search_paths

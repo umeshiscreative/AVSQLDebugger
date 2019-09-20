@@ -2,7 +2,7 @@
 //  AVSQLDebugger.h
 //  AVSQLDebugger
 //
-//  Created by Philips on 20/09/19.
+//  Created by Umesh
 //  Copyright © 2019 Umesh. All rights reserved.
 //
 
@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char AVSQLDebuggerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <AVSQLDebugger/PublicHeader.h>
 
-
+#import <AVSQLDebugger/SystemInfoHelper.h>

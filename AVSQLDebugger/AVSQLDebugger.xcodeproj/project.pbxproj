@@ -7,9 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04EA15002F78DA6D332C5919 /* Pods_AVSQLDebugger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8CEABFB79F92A694FD6FCF9 /* Pods_AVSQLDebugger.framework */; };
 		506A48072334CC480002D75A /* AVSQLDebugger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506A47FD2334CC480002D75A /* AVSQLDebugger.framework */; };
 		506A480C2334CC490002D75A /* AVSQLDebuggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A480B2334CC490002D75A /* AVSQLDebuggerTests.swift */; };
 		506A480E2334CC490002D75A /* AVSQLDebugger.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A48002334CC480002D75A /* AVSQLDebugger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		506A484E2334D17E0002D75A /* SystemInfoHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 506A484C2334D17E0002D75A /* SystemInfoHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		506A484F2334D17E0002D75A /* SystemInfoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 506A484D2334D17E0002D75A /* SystemInfoHelper.m */; };
+		506A48512334D18B0002D75A /* SqliteWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A48502334D18B0002D75A /* SqliteWrapper.swift */; };
+		506A48612334D1990002D75A /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 506A48522334D1990002D75A /* jquery.min.js */; };
+		506A48622334D1990002D75A /* dataTables.responsive.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 506A48532334D1990002D75A /* dataTables.responsive.min.js */; };
+		506A48632334D1990002D75A /* bootstrap.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 506A48542334D1990002D75A /* bootstrap.min.js */; };
+		506A48642334D1990002D75A /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 506A48552334D1990002D75A /* index.html */; };
+		506A48652334D1990002D75A /* app.js in Resources */ = {isa = PBXBuildFile; fileRef = 506A48562334D1990002D75A /* app.js */; };
+		506A48662334D1990002D75A /* responsive.dataTables.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 506A48572334D1990002D75A /* responsive.dataTables.min.css */; };
+		506A48672334D1990002D75A /* custom.css in Resources */ = {isa = PBXBuildFile; fileRef = 506A48582334D1990002D75A /* custom.css */; };
+		506A48682334D1990002D75A /* dataTables.buttons.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 506A48592334D1990002D75A /* dataTables.buttons.min.js */; };
+		506A48692334D1990002D75A /* buttons.dataTables.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 506A485A2334D1990002D75A /* buttons.dataTables.min.css */; };
+		506A486A2334D1990002D75A /* dataTables.altEditor.free.js in Resources */ = {isa = PBXBuildFile; fileRef = 506A485B2334D1990002D75A /* dataTables.altEditor.free.js */; };
+		506A486B2334D1990002D75A /* select.dataTables.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 506A485C2334D1990002D75A /* select.dataTables.min.css */; };
+		506A486C2334D1990002D75A /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 506A485D2334D1990002D75A /* bootstrap.min.css */; };
+		506A486D2334D1990002D75A /* dataTables.select.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 506A485E2334D1990002D75A /* dataTables.select.min.js */; };
+		506A486E2334D1990002D75A /* jquery.dataTables.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 506A485F2334D1990002D75A /* jquery.dataTables.min.css */; };
+		506A486F2334D1990002D75A /* jquery.dataTables.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 506A48602334D1990002D75A /* jquery.dataTables.min.js */; };
+		506A48712334D1DC0002D75A /* AVDebugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A48702334D1DC0002D75A /* AVDebugger.swift */; };
+		506A48752334D4E90002D75A /* GetDBViewController.html in Resources */ = {isa = PBXBuildFile; fileRef = 506A48722334D4E90002D75A /* GetDBViewController.html */; };
+		506A48762334D4E90002D75A /* GetTableDataViewController.html in Resources */ = {isa = PBXBuildFile; fileRef = 506A48732334D4E90002D75A /* GetTableDataViewController.html */; };
+		506A48772334D4E90002D75A /* QueryDBViewController.html in Resources */ = {isa = PBXBuildFile; fileRef = 506A48742334D4E90002D75A /* QueryDBViewController.html */; };
+		506A487B2334D4F40002D75A /* GetDBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A48782334D4F40002D75A /* GetDBViewController.swift */; };
+		506A487C2334D4F40002D75A /* GetTableDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A48792334D4F40002D75A /* GetTableDataViewController.swift */; };
+		506A487D2334D4F40002D75A /* QueryDBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A487A2334D4F40002D75A /* QueryDBViewController.swift */; };
+		506A487F2334D6070002D75A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A487E2334D6070002D75A /* Model.swift */; };
+		506A48812334D6D70002D75A /* String+Representable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A48802334D6D70002D75A /* String+Representable.swift */; };
+		506A48832334D9DF0002D75A /* ServerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A48822334D9DF0002D75A /* ServerError.swift */; };
+		506A48852334DA260002D75A /* ProtocolsReprsentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A48842334DA260002D75A /* ProtocolsReprsentable.swift */; };
+		506A48872334DAEB0002D75A /* AVDebugger+Servers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A48862334DAEB0002D75A /* AVDebugger+Servers.swift */; };
+		506A48892334DC2B0002D75A /* Model+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A48882334DC2B0002D75A /* Model+Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +55,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C2872BE44229413420A0DE9 /* Pods-AVSQLDebugger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVSQLDebugger.release.xcconfig"; path = "Target Support Files/Pods-AVSQLDebugger/Pods-AVSQLDebugger.release.xcconfig"; sourceTree = "<group>"; };
 		506A47FD2334CC480002D75A /* AVSQLDebugger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AVSQLDebugger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		506A48002334CC480002D75A /* AVSQLDebugger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVSQLDebugger.h; sourceTree = "<group>"; };
 		506A48012334CC480002D75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		506A48062334CC480002D75A /* AVSQLDebuggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVSQLDebuggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		506A480B2334CC490002D75A /* AVSQLDebuggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVSQLDebuggerTests.swift; sourceTree = "<group>"; };
 		506A480D2334CC490002D75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		506A484C2334D17E0002D75A /* SystemInfoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemInfoHelper.h; sourceTree = "<group>"; };
+		506A484D2334D17E0002D75A /* SystemInfoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemInfoHelper.m; sourceTree = "<group>"; };
+		506A48502334D18B0002D75A /* SqliteWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SqliteWrapper.swift; sourceTree = "<group>"; };
+		506A48522334D1990002D75A /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
+		506A48532334D1990002D75A /* dataTables.responsive.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dataTables.responsive.min.js; sourceTree = "<group>"; };
+		506A48542334D1990002D75A /* bootstrap.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bootstrap.min.js; sourceTree = "<group>"; };
+		506A48552334D1990002D75A /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		506A48562334D1990002D75A /* app.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = app.js; sourceTree = "<group>"; };
+		506A48572334D1990002D75A /* responsive.dataTables.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = responsive.dataTables.min.css; sourceTree = "<group>"; };
+		506A48582334D1990002D75A /* custom.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = custom.css; sourceTree = "<group>"; };
+		506A48592334D1990002D75A /* dataTables.buttons.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dataTables.buttons.min.js; sourceTree = "<group>"; };
+		506A485A2334D1990002D75A /* buttons.dataTables.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = buttons.dataTables.min.css; sourceTree = "<group>"; };
+		506A485B2334D1990002D75A /* dataTables.altEditor.free.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dataTables.altEditor.free.js; sourceTree = "<group>"; };
+		506A485C2334D1990002D75A /* select.dataTables.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = select.dataTables.min.css; sourceTree = "<group>"; };
+		506A485D2334D1990002D75A /* bootstrap.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = bootstrap.min.css; sourceTree = "<group>"; };
+		506A485E2334D1990002D75A /* dataTables.select.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dataTables.select.min.js; sourceTree = "<group>"; };
+		506A485F2334D1990002D75A /* jquery.dataTables.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jquery.dataTables.min.css; sourceTree = "<group>"; };
+		506A48602334D1990002D75A /* jquery.dataTables.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.dataTables.min.js; sourceTree = "<group>"; };
+		506A48702334D1DC0002D75A /* AVDebugger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVDebugger.swift; sourceTree = "<group>"; };
+		506A48722334D4E90002D75A /* GetDBViewController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = GetDBViewController.html; sourceTree = "<group>"; };
+		506A48732334D4E90002D75A /* GetTableDataViewController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = GetTableDataViewController.html; sourceTree = "<group>"; };
+		506A48742334D4E90002D75A /* QueryDBViewController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = QueryDBViewController.html; sourceTree = "<group>"; };
+		506A48782334D4F40002D75A /* GetDBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDBViewController.swift; sourceTree = "<group>"; };
+		506A48792334D4F40002D75A /* GetTableDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTableDataViewController.swift; sourceTree = "<group>"; };
+		506A487A2334D4F40002D75A /* QueryDBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryDBViewController.swift; sourceTree = "<group>"; };
+		506A487E2334D6070002D75A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		506A48802334D6D70002D75A /* String+Representable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Representable.swift"; sourceTree = "<group>"; };
+		506A48822334D9DF0002D75A /* ServerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerError.swift; sourceTree = "<group>"; };
+		506A48842334DA260002D75A /* ProtocolsReprsentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsReprsentable.swift; sourceTree = "<group>"; };
+		506A48862334DAEB0002D75A /* AVDebugger+Servers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVDebugger+Servers.swift"; sourceTree = "<group>"; };
+		506A48882334DC2B0002D75A /* Model+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model+Helpers.swift"; sourceTree = "<group>"; };
+		95F4407423EE0CC22563DE37 /* Pods-AVSQLDebugger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVSQLDebugger.debug.xcconfig"; path = "Target Support Files/Pods-AVSQLDebugger/Pods-AVSQLDebugger.debug.xcconfig"; sourceTree = "<group>"; };
+		C8CEABFB79F92A694FD6FCF9 /* Pods_AVSQLDebugger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVSQLDebugger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EA15002F78DA6D332C5919 /* Pods_AVSQLDebugger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +117,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E6DDD28DEBB783D5108E9A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8CEABFB79F92A694FD6FCF9 /* Pods_AVSQLDebugger.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		506A47F32334CC480002D75A = {
 			isa = PBXGroup;
 			children = (
 				506A47FF2334CC480002D75A /* AVSQLDebugger */,
 				506A480A2334CC480002D75A /* AVSQLDebuggerTests */,
 				506A47FE2334CC480002D75A /* Products */,
+				7D8A073F9BF786FC9EE4C8C7 /* Pods */,
+				1E6DDD28DEBB783D5108E9A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +148,7 @@
 		506A47FF2334CC480002D75A /* AVSQLDebugger */ = {
 			isa = PBXGroup;
 			children = (
+				506A48482334D0AD0002D75A /* Classes */,
 				506A48002334CC480002D75A /* AVSQLDebugger.h */,
 				506A48012334CC480002D75A /* Info.plist */,
 			);
@@ -86,6 +164,78 @@
 			path = AVSQLDebuggerTests;
 			sourceTree = "<group>";
 		};
+		506A48482334D0AD0002D75A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				506A48782334D4F40002D75A /* GetDBViewController.swift */,
+				506A48792334D4F40002D75A /* GetTableDataViewController.swift */,
+				506A487A2334D4F40002D75A /* QueryDBViewController.swift */,
+				506A48702334D1DC0002D75A /* AVDebugger.swift */,
+				506A484B2334D11F0002D75A /* Helpers */,
+				506A484A2334D1140002D75A /* Wrappers */,
+				506A48492334D0FE0002D75A /* Resources */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		506A48492334D0FE0002D75A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				506A48722334D4E90002D75A /* GetDBViewController.html */,
+				506A48732334D4E90002D75A /* GetTableDataViewController.html */,
+				506A48742334D4E90002D75A /* QueryDBViewController.html */,
+				506A48552334D1990002D75A /* index.html */,
+				506A48562334D1990002D75A /* app.js */,
+				506A485D2334D1990002D75A /* bootstrap.min.css */,
+				506A48542334D1990002D75A /* bootstrap.min.js */,
+				506A485A2334D1990002D75A /* buttons.dataTables.min.css */,
+				506A48582334D1990002D75A /* custom.css */,
+				506A485B2334D1990002D75A /* dataTables.altEditor.free.js */,
+				506A48592334D1990002D75A /* dataTables.buttons.min.js */,
+				506A48532334D1990002D75A /* dataTables.responsive.min.js */,
+				506A485E2334D1990002D75A /* dataTables.select.min.js */,
+				506A485F2334D1990002D75A /* jquery.dataTables.min.css */,
+				506A48602334D1990002D75A /* jquery.dataTables.min.js */,
+				506A48522334D1990002D75A /* jquery.min.js */,
+				506A48572334D1990002D75A /* responsive.dataTables.min.css */,
+				506A485C2334D1990002D75A /* select.dataTables.min.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		506A484A2334D1140002D75A /* Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				506A48502334D18B0002D75A /* SqliteWrapper.swift */,
+				506A487E2334D6070002D75A /* Model.swift */,
+				506A48802334D6D70002D75A /* String+Representable.swift */,
+				506A48822334D9DF0002D75A /* ServerError.swift */,
+				506A48842334DA260002D75A /* ProtocolsReprsentable.swift */,
+				506A48862334DAEB0002D75A /* AVDebugger+Servers.swift */,
+				506A48882334DC2B0002D75A /* Model+Helpers.swift */,
+			);
+			path = Wrappers;
+			sourceTree = "<group>";
+		};
+		506A484B2334D11F0002D75A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				506A484C2334D17E0002D75A /* SystemInfoHelper.h */,
+				506A484D2334D17E0002D75A /* SystemInfoHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7D8A073F9BF786FC9EE4C8C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95F4407423EE0CC22563DE37 /* Pods-AVSQLDebugger.debug.xcconfig */,
+				3C2872BE44229413420A0DE9 /* Pods-AVSQLDebugger.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -94,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				506A480E2334CC490002D75A /* AVSQLDebugger.h in Headers */,
+				506A484E2334D17E0002D75A /* SystemInfoHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +255,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 506A48112334CC490002D75A /* Build configuration list for PBXNativeTarget "AVSQLDebugger" */;
 			buildPhases = (
+				45043D9ABCB9AC181D2FD3DE /* [CP] Check Pods Manifest.lock */,
 				506A47F82334CC480002D75A /* Headers */,
 				506A47F92334CC480002D75A /* Sources */,
 				506A47FA2334CC480002D75A /* Frameworks */,
@@ -148,6 +300,7 @@
 				TargetAttributes = {
 					506A47FC2334CC480002D75A = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 					506A48052334CC480002D75A = {
 						CreatedOnToolsVersion = 11.0;
@@ -178,6 +331,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506A48752334D4E90002D75A /* GetDBViewController.html in Resources */,
+				506A48692334D1990002D75A /* buttons.dataTables.min.css in Resources */,
+				506A48772334D4E90002D75A /* QueryDBViewController.html in Resources */,
+				506A48762334D4E90002D75A /* GetTableDataViewController.html in Resources */,
+				506A48682334D1990002D75A /* dataTables.buttons.min.js in Resources */,
+				506A48652334D1990002D75A /* app.js in Resources */,
+				506A486E2334D1990002D75A /* jquery.dataTables.min.css in Resources */,
+				506A486D2334D1990002D75A /* dataTables.select.min.js in Resources */,
+				506A48662334D1990002D75A /* responsive.dataTables.min.css in Resources */,
+				506A486C2334D1990002D75A /* bootstrap.min.css in Resources */,
+				506A48632334D1990002D75A /* bootstrap.min.js in Resources */,
+				506A486F2334D1990002D75A /* jquery.dataTables.min.js in Resources */,
+				506A48642334D1990002D75A /* index.html in Resources */,
+				506A486B2334D1990002D75A /* select.dataTables.min.css in Resources */,
+				506A48622334D1990002D75A /* dataTables.responsive.min.js in Resources */,
+				506A48612334D1990002D75A /* jquery.min.js in Resources */,
+				506A486A2334D1990002D75A /* dataTables.altEditor.free.js in Resources */,
+				506A48672334D1990002D75A /* custom.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,11 +361,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45043D9ABCB9AC181D2FD3DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AVSQLDebugger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		506A47F92334CC480002D75A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506A48852334DA260002D75A /* ProtocolsReprsentable.swift in Sources */,
+				506A487F2334D6070002D75A /* Model.swift in Sources */,
+				506A48712334D1DC0002D75A /* AVDebugger.swift in Sources */,
+				506A487B2334D4F40002D75A /* GetDBViewController.swift in Sources */,
+				506A48812334D6D70002D75A /* String+Representable.swift in Sources */,
+				506A484F2334D17E0002D75A /* SystemInfoHelper.m in Sources */,
+				506A487D2334D4F40002D75A /* QueryDBViewController.swift in Sources */,
+				506A48872334DAEB0002D75A /* AVDebugger+Servers.swift in Sources */,
+				506A48512334D18B0002D75A /* SqliteWrapper.swift in Sources */,
+				506A48892334DC2B0002D75A /* Model+Helpers.swift in Sources */,
+				506A487C2334D4F40002D75A /* GetTableDataViewController.swift in Sources */,
+				506A48832334D9DF0002D75A /* ServerError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +547,9 @@
 		};
 		506A48122334CC490002D75A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F4407423EE0CC22563DE37 /* Pods-AVSQLDebugger.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -355,6 +565,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.umesh.AVSQLDebugger;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -362,7 +573,9 @@
 		};
 		506A48132334CC490002D75A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C2872BE44229413420A0DE9 /* Pods-AVSQLDebugger.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -386,6 +599,7 @@
 		506A48152334CC490002D75A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AVSQLDebuggerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +617,7 @@
 		506A48162334CC490002D75A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AVSQLDebuggerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
