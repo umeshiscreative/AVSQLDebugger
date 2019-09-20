@@ -1,6 +1,6 @@
 {
   "name": "AVSQLDebugger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "A framework to easily debug your data storage in apps..",
   "platforms": {
     "ios": "10.0"
@@ -13,10 +13,13 @@
   "homepage": "https://github.com/umeshiscreative/AVSQLDebugger",
   "source": {
     "git": "https://github.com/umeshiscreative/AVSQLDebugger.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "source_files": [
-    "AVSQLDebugger/AVSQLDebugger/*.{h,m,swift}"
+    "AVSQLDebugger/AVSQLDebugger/**/*.{h,m,swift}"
+  ],
+  "resources": [
+    "AVSQLDebugger/AVSQLDebugger/**/*.{html,js,css}"
   ],
   "requires_arc": true,
   "dependencies": {
@@ -26,5 +29,7 @@
   },
   "pod_target_xcconfig": {
     "SWIFT_VERSION": "5.0"
-  }
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }

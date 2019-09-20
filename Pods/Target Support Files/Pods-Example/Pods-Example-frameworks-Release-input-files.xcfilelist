@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework
 ${BUILT_PRODUCTS_DIR}/Criollo/Criollo.framework
+${BUILT_PRODUCTS_DIR}/AVSQLDebugger/AVSQLDebugger.framework

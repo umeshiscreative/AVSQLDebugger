@@ -1,5 +1,5 @@
 PODS:
-  - AVSQLDebugger (1.0.0):
+  - AVSQLDebugger (1.0.1):
     - Criollo (~> 0.4)
   - CocoaAsyncSocket (7.6.3)
   - Criollo (0.5.5):
@@ -19,10 +19,10 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  AVSQLDebugger: d9246a5ed99387c5dc068bf47d602040b7ea1489
+  AVSQLDebugger: 93112c18fd40c1d9572d9a6c219dde462305c532
   CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
   Criollo: 617173837c296ca4248b0b058f36ce9b91e5c25b
 
-PODFILE CHECKSUM: 4617a24c4e04a43c8fbe72576315d62f9dcde732
+PODFILE CHECKSUM: 60e83a25011ac8e7b80a8a09e4fd44305d036425
 
 COCOAPODS: 1.7.5

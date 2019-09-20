@@ -1,0 +1,6 @@
+framework module AVSQLDebugger {
+  umbrella header "AVSQLDebugger-umbrella.h"
+
+  export *
+  module * { export * }
+}
