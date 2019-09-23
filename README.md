@@ -17,9 +17,6 @@ A Simple extension that will debug your Core Data inside iOS apps. Just use this
     </a>
 </p>
 
-# Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 # Usage
 ## 👩‍💻 How to use
