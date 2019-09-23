@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/AVSQLDebugger.svg?style=flat)](https://cocoapods.org/pods/AVSQLDebugger)
 [![License](https://img.shields.io/cocoapods/l/AVSQLDebugger.svg?style=flat)](https://cocoapods.org/pods/AVSQLDebugger)
 [![Platform](https://img.shields.io/cocoapods/p/AVSQLDebugger.svg?style=flat)](https://cocoapods.org/pods/AVSQLDebugger)
+[![Swift](https://img.shields.io/badge/swift-5-brightgreen.svg?style=flat)](http://cocoapods.org/pods/UVCardView)
 
 # Example
 
