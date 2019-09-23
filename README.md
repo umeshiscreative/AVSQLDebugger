@@ -48,7 +48,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AVDebuggerProtocol { ... 
 
 ```
 
-### Check the console for Server Running of given Port. Open this Url in your Web Browser and See all the Data inside your app.
+### Check the console for server running of given port. Open this url in your web browser and see all the data inside your app.
 
 ```bash
 ------------------------------------------------------
@@ -60,7 +60,7 @@ http://127.0.0.0:8090/index.html
 ------------------------------------------------------
 ```
 
-### Stop Listening the server events
+### Stop listening the server events
 
 ```swift
  func applicationWillTerminate(_ application: UIApplication) {
