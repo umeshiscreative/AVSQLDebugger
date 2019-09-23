@@ -94,6 +94,13 @@ Edit your `Cartfile` and specify the dependency:
 github "umeshiscreative/AVSQLDebugger"
 ```
 
+
+## ❤️ Contributing
+
+This is an open source project, so feel free to contribute. How?
+- Open an [issue](https://github.com/umeshiscreative/AVSQLDebugger/issues/new).
+- Propose your own fixes, suggestions and open a pull request with the changes.
+
 ## Author
 
 Umesh Verma
