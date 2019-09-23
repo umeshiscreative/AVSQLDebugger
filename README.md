@@ -1,6 +1,8 @@
 
 
 # AVSQLDebugger
+A Simple extension that will debug your Core Data inside iOS apps. Just use this extension and debug your database in your web browser.
+
 <p align="left">
     <img src="https://img.shields.io/badge/swift-5-brightgreen.svg" />
         <img src="https://img.shields.io/badge/Platforms-iOS-blue.svg?style=flat" />
