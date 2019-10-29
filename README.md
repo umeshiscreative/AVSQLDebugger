@@ -92,7 +92,9 @@ Edit your `Cartfile` and specify the dependency:
 ```bash
 github "umeshiscreative/AVSQLDebugger"
 ```
+### Seeing values
 
+<img src=https://raw.githubusercontent.com/umeshiscreative/AVSQLDebugger/master/Debug.png>
 
 ## ❤️ Contributing
 
